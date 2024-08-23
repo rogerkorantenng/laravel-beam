@@ -6,6 +6,8 @@
 
 php artisan migrate --force
 
+composer install --ignore-platform-reqs
+
 php artisan config:clear
 
 php artisan route:cache
